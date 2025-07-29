@@ -1,0 +1,100 @@
+body {
+    background-color: #f0f8ff; [span_0](start_span)/* Requisito 1: Fundo da página com cor suave[span_0](end_span) */
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 20px;
+}
+
+h1 {
+    color: #4682b4; [span_1](start_span)/* Requisito 2: Título com cor diferente[span_1](end_span) */
+    text-align: center; [span_2](start_span)/* Requisito 2: Título centralizado[span_2](end_span) */
+}
+
+p {
+    font-size: 1.1em; [span_3](start_span)/* Requisito 3: Parágrafo com tamanho de fonte maior[span_3](end_span) */
+    text-align: justify; [span_4](start_span)/* Requisito 3: Parágrafo justificado[span_4](end_span) */
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px; [span_5](start_span)/* Requisito 4: Espaçamento maior entre os itens da lista[span_5](end_span) */
+}
+
+.hobby-image {
+    border-radius: 15px; [span_6](start_span)/* Requisito 5: Bordas arredondadas[span_6](end_span) */
+    width: 300px; [span_7](start_span)/* Requisito 5: Tamanho adequado[span_7](end_span) */
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Centraliza a imagem */
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto; /* Centraliza a tabela */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #555;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table img {
+    max-width: 80px;
+    height: auto;
+    border-radius: 5px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Adiciona uma transição suave para a mudança de cor */
+    display: block; /* Para que o margin-top funcione */
+    margin-top: 20px;
+    text-align: center;
+}
+
+a:hover {
+    color: #0056b3; [span_8](start_span)/* Requisito 7: Link muda de cor ao passar o mouse[span_8](end_span) */
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#messageDisplay {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #d9534f;
+    font-weight: bold;
+}
